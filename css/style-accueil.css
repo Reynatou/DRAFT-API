@@ -1,0 +1,40 @@
+.fond
+{
+        background-image: url('../img/bubble.png');
+        background-repeat: repeat;
+}
+    
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 88.5px;
+    height: 90px;
+    position: relative;
+    top: 25px;
+}
+
+#logo h1
+{
+    font-size: 60px;
+}
+header
+{
+    background: url('../img/ligne.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header h1
+{
+    background: center / cover url('../img/paysage.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
